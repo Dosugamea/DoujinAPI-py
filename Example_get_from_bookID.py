@@ -1,6 +1,6 @@
 import DoujinAPI
 
-dj = DoujinAPI.DoujinDB(key="350edd0054ea6f863126")
+dj = DoujinAPI.DoujinDB(key="INPUT_YOUR_API_KEY")
 id= "B967803"
 print(dj.get_info(id))
 
